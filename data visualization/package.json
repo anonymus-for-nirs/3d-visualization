@@ -1,0 +1,19 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "Scopus data visualization with forse graph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Andrew Piskunov, Andrew Fedorov",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fuzzysort": "^1.1.4",
+    "http": "0.0.1-security",
+    "path": "^0.12.7",
+    "three": "^0.120.0"
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <title>Article Universe</title>
+</head>
+<body id='startBody'>
+    <div id="blackBlock"></div>
+    <div id="mainBlock">    
+        <div id='guide'>Guide</div>
+
+        <div id='h1Name'>Article Universe</div>     
+    
+        <button id='graphPageBtn' onclick="location.href='./graph.html'">Big bang!</button>
+    </div>
+    
+    <dialog id='dialogGuide'>
+        <h3>Guide</h3> 
+        <table>
+            <tr>
+                <td>
+                    W - Fly forward <br>
+                    A - Fly left <br>
+                    S - Fly back <br>
+                    D - Fly rigth <br>
+                </td>
+                <td>
+                    R - Fly up <br>
+                    F - Fly down <br>
+                    LShift - Acceleration
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    Q - Roll left <br>
+                    E - Roll rigth <br>
+                </td>
+                <td>
+                    Z - Select links <b>to</b> the current article <br>
+                    X - Select links <b>from</b> the current article <br>
+                    C - Clear all selections <br>
+                    Space - Select the sphere
+                </td>
+            </tr>
+            <tr>
+                <td>L - Follow the link to <i>Scopus</i></td>   
+                <td>Hold mouse button OR &larr; &uarr; &rarr; &darr;  - Turn camera</td>
+            </tr>
+        </table>
+
+        <button id="close">Закрыть</button>
+    </dialog>
+    
+    <script src="./src/index.js"></script>
+</body>
+</html>

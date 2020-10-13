@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <title>Article Universe</title>
+  </head>
+  <body>
+    <div id='preloader'> 
+      <div>Loading...</div>  
+    </div>
+
+    <div id='header'>      
+      <!-- <a href="index.html"> <img src="./images/favicon.ico" alt="" id='logoImage'> </a>    -->
+      <div id='headName'> <a href="./index.html">Article Universe</a> </div>     
+
+      <input type=search id='search'>
+      <select id="selectPaper"></select>
+
+      <button class='headerBtn' id='showBtn'>Show</button>
+      <button class='headerBtn' id='searchArticleBtn'>Search article</button>
+      <button class='headerBtn' id='searchAuthorBtn'>Search author</button>
+    </div>
+
+    <div id="paperName"></div>  
+    <script src="./node_modules/fuzzysort/fuzzysort.js"></script>
+    <script type="module" src="./src/graph.js" ></script>        
+  </body>
+</html>

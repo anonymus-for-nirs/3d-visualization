@@ -1,0 +1,8 @@
+.idea/
+drivers/
+target/
+src/test/
+src/main/resources/ScopusPhys.csv
+3dVisual.iml
+output/
+Collections/
